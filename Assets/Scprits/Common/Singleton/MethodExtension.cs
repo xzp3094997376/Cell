@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DG.Tweening;
+using UnityEngine;
 
 namespace MyFrameWork
 {
@@ -101,8 +102,63 @@ namespace MyFrameWork
         {
             return go.transform.GetComponentByPath<T>(path);
         }
-
-
         #endregion
+        public static Transform SetTransfrom(this Transform t, TransfromStruct ts)
+        {
+            t.transform.localPosition = ts.pos;
+            t.transform.localRotation = ts.rotation;
+            t.transform.localScale = ts.scale;
+            return t.transform;
+        }
+        public static void DoTransfrom(this Transform tt, float time, TransfromStruct tarTransfromInfor, System.Action action)
+        {
+            tt.DOLocalMove(tarTransfromInfor.pos, time).onComplete = () =>
+            {
+                action?.Invoke();
+                action = null;
+            }; ;
+            tt.DORotateQuaternion(tarTransfromInfor.rotation, time);
+            tt.DOScale(tarTransfromInfor.scale, time);
+        }
+        public static GameObject InitObj(this GameObject go, Transform par, Vector3 pos, Vector3 eular, Vector3 scale)
+        {
+            go.transform.SetParent(par);
+            go.transform.localPosition = pos;
+            go.transform.localRotation = Quaternion.Euler(Vector3.zero);
+            go.transform.localScale = Vector3.one;
+            return go;
+        }
+
+    }
+}
+public struct TransfromStruct
+{
+    public Vector3 pos;
+    public Vector3 scale;
+    public Quaternion rotation;
+    public TransfromStruct(Vector3 _pos, Vector3 _scale, Quaternion _rotation)
+    {
+        pos = _pos;
+        scale = _scale;
+        rotation = _rotation;
+    }
+
+    public static implicit operator Transform(TransfromStruct ts)
+    {
+        Transform tf = new TransformExtension();
+        tf.localPosition = ts.pos;
+        tf.localRotation = ts.rotation;
+        tf.localScale = ts.scale;
+        return tf;
+    }
+    public static implicit operator TransfromStruct(Transform ts)
+    {
+        return new TransfromStruct(ts.localPosition, ts.localScale, ts.localRotation);
+    }
+}
+public class TransformExtension : Transform
+{
+    public TransformExtension()
+    {
     }
 }

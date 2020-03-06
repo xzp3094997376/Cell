@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
-
+using MyFrameWork;
 public class A1Moudle : MonoBehaviour
 {
     TipPanel tip;
     Transform yyhxModelTr;
+    ToolBox toolBox;
     // Use this for initialization
     void Start()
     {
@@ -33,12 +34,21 @@ public class A1Moudle : MonoBehaviour
         {
             //当前点击事移除
             GlobalEntity.GetInstance().RemoveListener<GameObject>(MsgEvent.MOUSE_DOWN, ChooseArea);
-            //模型移动
-            tarPos = new Vector3();
-            eular = new Vector3();
 
-            //工具箱显示
-            GameObject toolBox=ResManager.GetPrefab("Prefabs/ToolBox");
+            //模型移动
+            tarPos = new Vector3(0,0.97f,0.802f);
+            eular = new Vector3(-46.687f,0,0);
+            yyhxModelTr.DoTransfrom(1, new TransfromStruct(tarPos,yyhxModelTr.localScale,Quaternion.Euler(eular)), () => {
+
+                //工具箱显示
+                toolBox = ResManager.GetPrefab("Prefabs/ToolBox").GetComponent<ToolBox>();
+                toolBox.transform.SetParent(transform, false);
+
+                //提示打开工具箱
+                tip.SetText("请打开工具箱选择元素");
+            });
+
+         
         }
 
         
