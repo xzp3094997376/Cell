@@ -1,5 +1,6 @@
 ﻿using GCSeries;
 using liu;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -111,6 +112,7 @@ public class ToolBox : MonoBehaviour
             return;
         }
 
+        //加载预制体模型
         if (objsDic.ContainsKey(img.name))
         {
             ClickedObj = objsDic[img.name];
@@ -193,9 +195,17 @@ public class ToolBox : MonoBehaviour
             }
             Tip(rightTip);
             selectFinish = true;
-        }
+        }      
     }
 
+    /// <summary>
+    /// 设置元素
+    /// </summary>
+    public void SetYuanSu(List<string> _yuanSuList)
+    {
+        
+    }
+    List<string> ysList;
     /// <summary>
     /// 判断是光反应还是暗反应
     /// </summary>
@@ -204,15 +214,7 @@ public class ToolBox : MonoBehaviour
     bool CheckObj(string _name)
     {
         bool right = true;
-        string pName = transform.parent.name;
-        List<string> ghzy = new List<string> { "light", "H2O", "lnt", "mei" };
-
-        if (pName == "BMoudle")
-        {
-            ghzy = new List<string> { "CO2", "C5", "mei" };
-        }
-
-        if (!ghzy.Contains(_name))
+        if (!ysList.Contains(_name))
         {
             right = false;
         }

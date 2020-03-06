@@ -36,7 +36,7 @@ public class A1Moudle : MonoBehaviour
             GlobalEntity.GetInstance().RemoveListener<GameObject>(MsgEvent.MOUSE_DOWN, ChooseArea);
 
             //模型移动
-            tarPos = new Vector3(0,0.97f,0.802f);
+            tarPos = new Vector3(0,0.802f,0.802f);
             eular = new Vector3(-46.687f,0,0);
             yyhxModelTr.DoTransfrom(1, new TransfromStruct(tarPos,yyhxModelTr.localScale,Quaternion.Euler(eular)), () => {
 
