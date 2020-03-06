@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 19e16ec1c7a886345a7dc963be651249
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: C3H4O3
+    100002: C3H4O4
+    100004: group1
+    100006: group2
+    100008: group3
+    100010: group4
+    100012: sw_swjj_ATP
+    100014: sw_swjj_ATP1
+    100016: sw_swjj_dwxb_xbh
+    100018: sw_swjj_dwxb_xbm
+    100020: sw_swjj_dwxb_xbz
+    100022: sw_swjj_dwxb_xlt
+    100024: sw_swjj_H
+    100026: sw_swjj_H1
+    100028: sw_swjj_H2
+    100030: sw_swjj_H3
+    100032: sw_swjj_mei
+    100034: sw_swjj_tshhw
+    100036: sw_swjj_tshhw_01
+    100038: sw_swjj_tshhw_02
+    100040: sw_swjj_tshhw_03
+    100042: sw_swjj_tshhw_04
+    100044: sw_swjj_tshhw_05
+    100046: //RootNode
+    100048: XianLiTi
+    100050: XianLiTi 1
+    100052: XianLiTi 2
+    100054: XianLiTi1
+    100056: XianLiTi1 1
+    100058: XianLiTi1 2
+    100060: XianLiTi2
+    100062: XianLiTi2 1
+    100064: XianLiTi2 2
+    100066: XianLiTi3
+    100068: XianLiTi3 1
+    100070: XianLiTi3 2
+    100072: XianLiTi4
+    100074: XiBaoHe
+    100076: XiBaoMo
+    100078: XiBaoMo1
+    100080: XiBaoZiJiZhi
+    400000: C3H4O3
+    400002: C3H4O4
+    400004: group1
+    400006: group2
+    400008: group3
+    400010: group4
+    400012: sw_swjj_ATP
+    400014: sw_swjj_ATP1
+    400016: sw_swjj_dwxb_xbh
+    400018: sw_swjj_dwxb_xbm
+    400020: sw_swjj_dwxb_xbz
+    400022: sw_swjj_dwxb_xlt
+    400024: sw_swjj_H
+    400026: sw_swjj_H1
+    400028: sw_swjj_H2
+    400030: sw_swjj_H3
+    400032: sw_swjj_mei
+    400034: sw_swjj_tshhw
+    400036: sw_swjj_tshhw_01
+    400038: sw_swjj_tshhw_02
+    400040: sw_swjj_tshhw_03
+    400042: sw_swjj_tshhw_04
+    400044: sw_swjj_tshhw_05
+    400046: //RootNode
+    400048: XianLiTi
+    400050: XianLiTi 1
+    400052: XianLiTi 2
+    400054: XianLiTi1
+    400056: XianLiTi1 1
+    400058: XianLiTi1 2
+    400060: XianLiTi2
+    400062: XianLiTi2 1
+    400064: XianLiTi2 2
+    400066: XianLiTi3
+    400068: XianLiTi3 1
+    400070: XianLiTi3 2
+    400072: XianLiTi4
+    400074: XiBaoHe
+    400076: XiBaoMo
+    400078: XiBaoMo1
+    400080: XiBaoZiJiZhi
+    2100000: lanse
+    2100002: dongwuxibao_coo
+    2100004: xianliti_nei_back
+    2100006: blinn8
+    2100008: xianliti_wai_Cc
+    2100010: neihe_front
+    2100012: blinn3
+    2100014: sw_swjj_mei_tex
+    2100016: sw_swjj_C_RGB
+    2100018: sw_swjj_O_RGB
+    2100020: sw_swjj_H_RGB
+    2100022: sw_swjj_H_RGB2
+    2100024: sw_swjj_ATP_tex
+    2100026: sw_swjj_C_RGB1
+    2100028: sw_swjj_O_RGB1
+    2100030: sw_swjj_H_RGB1
+    2300000: C3H4O3
+    2300002: C3H4O4
+    2300004: sw_swjj_ATP
+    2300006: sw_swjj_ATP1
+    2300008: sw_swjj_H
+    2300010: sw_swjj_H1
+    2300012: sw_swjj_H2
+    2300014: sw_swjj_H3
+    2300016: sw_swjj_mei
+    2300018: sw_swjj_tshhw_01
+    2300020: sw_swjj_tshhw_02
+    2300022: sw_swjj_tshhw_03
+    2300024: sw_swjj_tshhw_04
+    2300026: sw_swjj_tshhw_05
+    2300028: XianLiTi
+    2300030: XianLiTi 1
+    2300032: XianLiTi 2
+    2300034: XianLiTi1
+    2300036: XianLiTi1 1
+    2300038: XianLiTi1 2
+    2300040: XianLiTi2
+    2300042: XianLiTi2 1
+    2300044: XianLiTi2 2
+    2300046: XianLiTi3 1
+    2300048: XianLiTi3 2
+    2300050: XiBaoHe
+    2300052: XiBaoMo
+    2300054: XiBaoMo1
+    2300056: XiBaoZiJiZhi
+    3300000: C3H4O3
+    3300002: C3H4O4
+    3300004: sw_swjj_ATP
+    3300006: sw_swjj_ATP1
+    3300008: sw_swjj_H
+    3300010: sw_swjj_H1
+    3300012: sw_swjj_H2
+    3300014: sw_swjj_H3
+    3300016: sw_swjj_mei
+    3300018: sw_swjj_tshhw_01
+    3300020: sw_swjj_tshhw_02
+    3300022: sw_swjj_tshhw_03
+    3300024: sw_swjj_tshhw_04
+    3300026: sw_swjj_tshhw_05
+    3300028: XianLiTi
+    3300030: XianLiTi 1
+    3300032: XianLiTi 2
+    3300034: XianLiTi1
+    3300036: XianLiTi1 1
+    3300038: XianLiTi1 2
+    3300040: XianLiTi2
+    3300042: XianLiTi2 1
+    3300044: XianLiTi2 2
+    3300046: XianLiTi3 1
+    3300048: XianLiTi3 2
+    3300050: XiBaoHe
+    3300052: XiBaoMo
+    3300054: XiBaoMo1
+    3300056: XiBaoZiJiZhi
+    4300000: XiBaoZiJiZhi
+    4300002: XiBaoMo
+    4300004: XiBaoMo1
+    4300006: XianLiTi
+    4300008: XianLiTi1
+    4300010: XianLiTi2
+    4300012: XiBaoHe
+    4300014: XianLiTi
+    4300016: XianLiTi1
+    4300018: XianLiTi2
+    4300020: XianLiTi3
+    4300022: XianLiTi
+    4300024: XianLiTi1
+    4300026: XianLiTi2
+    4300028: XianLiTi3
+    4300030: sw_swjj_mei
+    4300032: sw_swjj_tshhw_01
+    4300034: sw_swjj_tshhw_02
+    4300036: sw_swjj_tshhw_03
+    4300038: sw_swjj_tshhw_04
+    4300040: sw_swjj_tshhw_05
+    4300042: sw_swjj_H
+    4300044: sw_swjj_H1
+    4300046: sw_swjj_H2
+    4300048: sw_swjj_H3
+    4300050: sw_swjj_ATP
+    4300052: sw_swjj_ATP1
+    4300054: C3H4O3
+    4300056: C3H4O4
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3
+    second: {fileID: 2100000, guid: 5eb8c9ef5c797fc4aa0a3df85b428495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn8
+    second: {fileID: 2100000, guid: 550ffff2737c7d249b4a5eba8ba46a16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dongwuxibao_coo
+    second: {fileID: 2100000, guid: b588dddb626038d4cb44b2ab6495ba23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lanse
+    second: {fileID: 2100000, guid: 5a71743327930e941a484141d5456343, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neihe_front
+    second: {fileID: 2100000, guid: 4dfb3cc2138e3ad43a7dd50a58caf5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sw_swjj_ATP_tex
+    second: {fileID: 2100000, guid: afe5e53ca4e423f4880c1552bbf47170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sw_swjj_C_RGB
+    second: {fileID: 2100000, guid: 5c6519a59b3344c4b833b51d54f6a5ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sw_swjj_H_RGB
+    second: {fileID: 2100000, guid: 6573d36419d71d24e8d154fc0a8bdf54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sw_swjj_O_RGB
+    second: {fileID: 2100000, guid: 400488130dd0db6468fa4bbd6db159f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sw_swjj_mei_tex
+    second: {fileID: 2100000, guid: 8f0858a351bef0343b2d8bb1eeab9efa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xianliti_nei_back
+    second: {fileID: 2100000, guid: 09ee52bed58c08242be901cec4a3d78f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xianliti_wai_Cc
+    second: {fileID: 2100000, guid: 6866913e47826b54084eeb9a078ac08d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

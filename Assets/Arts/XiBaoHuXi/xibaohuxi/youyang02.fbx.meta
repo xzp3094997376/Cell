@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 3b646fde8a1c1304f8c21ba65c12c987
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: C3H4O3
+    100002: C3H4O4
+    100004: group1
+    100006: group2
+    100008: group3
+    100010: sw_swjj_ATP
+    100012: sw_swjj_ATP1
+    100014: sw_swjj_dwxb_xbh
+    100016: sw_swjj_dwxb_xbm
+    100018: sw_swjj_dwxb_xbz
+    100020: sw_swjj_dwxb_xlt
+    100022: sw_swjj_eyht
+    100024: sw_swjj_eyht1
+    100026: sw_swjj_eyht2
+    100028: sw_swjj_eyht3
+    100030: sw_swjj_eyht4
+    100032: sw_swjj_eyht5
+    100034: sw_swjj_H
+    100036: sw_swjj_H1
+    100038: sw_swjj_H10
+    100040: sw_swjj_H11
+    100042: sw_swjj_H12
+    100044: sw_swjj_H13
+    100046: sw_swjj_H14
+    100048: sw_swjj_H15
+    100050: sw_swjj_H16
+    100052: sw_swjj_H17
+    100054: sw_swjj_H18
+    100056: sw_swjj_H19
+    100058: sw_swjj_H2
+    100060: sw_swjj_H3
+    100062: sw_swjj_H4
+    100064: sw_swjj_H5
+    100066: sw_swjj_H6
+    100068: sw_swjj_H7
+    100070: sw_swjj_H8
+    100072: sw_swjj_H9
+    100074: sw_swjj_mei
+    100076: sw_swjj_shui
+    100078: sw_swjj_shui1
+    100080: sw_swjj_shui2
+    100082: sw_swjj_shui3
+    100084: sw_swjj_shui4
+    100086: sw_swjj_shui5
+    100088: XianLiTi
+    100090: XianLiTi 1
+    100092: XianLiTi 2
+    100094: XianLiTi1
+    100096: XianLiTi1 1
+    100098: XianLiTi1 2
+    100100: XianLiTi2
+    100102: XianLiTi2 1
+    100104: XianLiTi2 2
+    100106: XianLiTi3
+    100108: XianLiTi3 1
+    100110: XianLiTi3 2
+    100112: XianLiTi4
+    100114: XiBaoHe
+    100116: XiBaoMo
+    100118: XiBaoMo1
+    100120: XiBaoZiJiZhi
+    100122: //RootNode
+    400000: C3H4O3
+    400002: C3H4O4
+    400004: group1
+    400006: group2
+    400008: group3
+    400010: sw_swjj_ATP
+    400012: sw_swjj_ATP1
+    400014: sw_swjj_dwxb_xbh
+    400016: sw_swjj_dwxb_xbm
+    400018: sw_swjj_dwxb_xbz
+    400020: sw_swjj_dwxb_xlt
+    400022: sw_swjj_eyht
+    400024: sw_swjj_eyht1
+    400026: sw_swjj_eyht2
+    400028: sw_swjj_eyht3
+    400030: sw_swjj_eyht4
+    400032: sw_swjj_eyht5
+    400034: sw_swjj_H
+    400036: sw_swjj_H1
+    400038: sw_swjj_H10
+    400040: sw_swjj_H11
+    400042: sw_swjj_H12
+    400044: sw_swjj_H13
+    400046: sw_swjj_H14
+    400048: sw_swjj_H15
+    400050: sw_swjj_H16
+    400052: sw_swjj_H17
+    400054: sw_swjj_H18
+    400056: sw_swjj_H19
+    400058: sw_swjj_H2
+    400060: sw_swjj_H3
+    400062: sw_swjj_H4
+    400064: sw_swjj_H5
+    400066: sw_swjj_H6
+    400068: sw_swjj_H7
+    400070: sw_swjj_H8
+    400072: sw_swjj_H9
+    400074: sw_swjj_mei
+    400076: sw_swjj_shui
+    400078: sw_swjj_shui1
+    400080: sw_swjj_shui2
+    400082: sw_swjj_shui3
+    400084: sw_swjj_shui4
+    400086: sw_swjj_shui5
+    400088: XianLiTi
+    400090: XianLiTi 1
+    400092: XianLiTi 2
+    400094: XianLiTi1
+    400096: XianLiTi1 1
+    400098: XianLiTi1 2
+    400100: XianLiTi2
+    400102: XianLiTi2 1
+    400104: XianLiTi2 2
+    400106: XianLiTi3
+    400108: XianLiTi3 1
+    400110: XianLiTi3 2
+    400112: XianLiTi4
+    400114: XiBaoHe
+    400116: XiBaoMo
+    400118: XiBaoMo1
+    400120: XiBaoZiJiZhi
+    400122: //RootNode
+    2100000: lanse
+    2100002: dongwuxibao_coo
+    2100004: xianliti_nei_back
+    2100006: blinn8
+    2100008: xianliti_wai_Cc
+    2100010: neihe_front
+    2100012: blinn3
+    2100014: sw_swjj_mei_tex1
+    2100016: sw_swjj_ATP_tex1
+    2100018: sw_swjj_C_RGB4
+    2100020: sw_swjj_O_RGB5
+    2100022: sw_swjj_H_RGB6
+    2100024: sw_swjj_O_RGB3
+    2100026: sw_swjj_H_RGB4
+    2100028: sw_swjj_H_RGB5
+    2100030: sw_swjj_C_RGB3
+    2100032: sw_swjj_O_RGB4
+    2100034: sw_swjj_mei_tex
+    2100036: sw_swjj_ATP_tex
+    2100038: sw_swjj_C_RGB
+    2100040: sw_swjj_O_RGB
+    2100042: sw_swjj_H_RGB
+    2300000: C3H4O3
+    2300002: C3H4O4
+    2300004: sw_swjj_ATP
+    2300006: sw_swjj_ATP1
+    2300008: sw_swjj_eyht
+    2300010: sw_swjj_eyht1
+    2300012: sw_swjj_eyht2
+    2300014: sw_swjj_eyht3
+    2300016: sw_swjj_eyht4
+    2300018: sw_swjj_eyht5
+    2300020: sw_swjj_H
+    2300022: sw_swjj_H1
+    2300024: sw_swjj_H10
+    2300026: sw_swjj_H11
+    2300028: sw_swjj_H12
+    2300030: sw_swjj_H13
+    2300032: sw_swjj_H14
+    2300034: sw_swjj_H15
+    2300036: sw_swjj_H16
+    2300038: sw_swjj_H17
+    2300040: sw_swjj_H18
+    2300042: sw_swjj_H19
+    2300044: sw_swjj_H2
+    2300046: sw_swjj_H3
+    2300048: sw_swjj_H4
+    2300050: sw_swjj_H5
+    2300052: sw_swjj_H6
+    2300054: sw_swjj_H7
+    2300056: sw_swjj_H8
+    2300058: sw_swjj_H9
+    2300060: sw_swjj_mei
+    2300062: sw_swjj_shui
+    2300064: sw_swjj_shui1
+    2300066: sw_swjj_shui2
+    2300068: sw_swjj_shui3
+    2300070: sw_swjj_shui4
+    2300072: sw_swjj_shui5
+    2300074: XianLiTi
+    2300076: XianLiTi 1
+    2300078: XianLiTi 2
+    2300080: XianLiTi1
+    2300082: XianLiTi1 1
+    2300084: XianLiTi1 2
+    2300086: XianLiTi2
+    2300088: XianLiTi2 1
+    2300090: XianLiTi2 2
+    2300092: XianLiTi3 1
+    2300094: XianLiTi3 2
+    2300096: XiBaoHe
+    2300098: XiBaoMo
+    2300100: XiBaoMo1
+    2300102: XiBaoZiJiZhi
+    3300000: C3H4O3
+    3300002: C3H4O4
+    3300004: sw_swjj_ATP
+    3300006: sw_swjj_ATP1
+    3300008: sw_swjj_eyht
+    3300010: sw_swjj_eyht1
+    3300012: sw_swjj_eyht2
+    3300014: sw_swjj_eyht3
+    3300016: sw_swjj_eyht4
+    3300018: sw_swjj_eyht5
+    3300020: sw_swjj_H
+    3300022: sw_swjj_H1
+    3300024: sw_swjj_H10
+    3300026: sw_swjj_H11
+    3300028: sw_swjj_H12
+    3300030: sw_swjj_H13
+    3300032: sw_swjj_H14
+    3300034: sw_swjj_H15
+    3300036: sw_swjj_H16
+    3300038: sw_swjj_H17
+    3300040: sw_swjj_H18
+    3300042: sw_swjj_H19
+    3300044: sw_swjj_H2
+    3300046: sw_swjj_H3
+    3300048: sw_swjj_H4
+    3300050: sw_swjj_H5
+    3300052: sw_swjj_H6
+    3300054: sw_swjj_H7
+    3300056: sw_swjj_H8
+    3300058: sw_swjj_H9
+    3300060: sw_swjj_mei
+    3300062: sw_swjj_shui
+    3300064: sw_swjj_shui1
+    3300066: sw_swjj_shui2
+    3300068: sw_swjj_shui3
+    3300070: sw_swjj_shui4
+    3300072: sw_swjj_shui5
+    3300074: XianLiTi
+    3300076: XianLiTi 1
+    3300078: XianLiTi 2
+    3300080: XianLiTi1
+    3300082: XianLiTi1 1
+    3300084: XianLiTi1 2
+    3300086: XianLiTi2
+    3300088: XianLiTi2 1
+    3300090: XianLiTi2 2
+    3300092: XianLiTi3 1
+    3300094: XianLiTi3 2
+    3300096: XiBaoHe
+    3300098: XiBaoMo
+    3300100: XiBaoMo1
+    3300102: XiBaoZiJiZhi
+    4300000: XiBaoZiJiZhi
+    4300002: XiBaoMo
+    4300004: XiBaoMo1
+    4300006: XianLiTi
+    4300008: XianLiTi1
+    4300010: XianLiTi2
+    4300012: XiBaoHe
+    4300014: XianLiTi
+    4300016: XianLiTi1
+    4300018: XianLiTi2
+    4300020: XianLiTi3
+    4300022: XianLiTi
+    4300024: XianLiTi1
+    4300026: XianLiTi2
+    4300028: XianLiTi3
+    4300030: sw_swjj_mei
+    4300032: sw_swjj_ATP
+    4300034: sw_swjj_ATP1
+    4300036: C3H4O3
+    4300038: C3H4O4
+    4300040: sw_swjj_shui
+    4300042: sw_swjj_shui1
+    4300044: sw_swjj_shui2
+    4300046: sw_swjj_shui3
+    4300048: sw_swjj_shui4
+    4300050: sw_swjj_shui5
+    4300052: sw_swjj_H
+    4300054: sw_swjj_H1
+    4300056: sw_swjj_H2
+    4300058: sw_swjj_H3
+    4300060: sw_swjj_H4
+    4300062: sw_swjj_H5
+    4300064: sw_swjj_H6
+    4300066: sw_swjj_H7
+    4300068: sw_swjj_H8
+    4300070: sw_swjj_H9
+    4300072: sw_swjj_H10
+    4300074: sw_swjj_H11
+    4300076: sw_swjj_H12
+    4300078: sw_swjj_H13
+    4300080: sw_swjj_H14
+    4300082: sw_swjj_H15
+    4300084: sw_swjj_H16
+    4300086: sw_swjj_H17
+    4300088: sw_swjj_H18
+    4300090: sw_swjj_H19
+    4300092: sw_swjj_eyht
+    4300094: sw_swjj_eyht1
+    4300096: sw_swjj_eyht2
+    4300098: sw_swjj_eyht3
+    4300100: sw_swjj_eyht4
+    4300102: sw_swjj_eyht5
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

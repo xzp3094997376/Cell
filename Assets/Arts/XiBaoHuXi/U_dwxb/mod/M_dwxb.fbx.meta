@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 4984a05f3d556524fb43fb7aeed1194c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: dongwuxibao01_pro_H:dongwuxibao_geo 1
+    100002: dongwuxibao01_pro_H:nurbsCircle1
+    100004: dongwuxibao01_pro_H:nurbsCircle11
+    100006: dongwuxibao01_pro_H:nurbsCircle13
+    100008: dongwuxibao01_pro_H:nurbsCircle14
+    100010: dongwuxibao01_pro_H:nurbsCircle15
+    100012: dongwuxibao01_pro_H:nurbsCircle16
+    100014: dongwuxibao01_pro_H:nurbsCircle17
+    100016: dongwuxibao01_pro_H:nurbsCircle2
+    100018: dongwuxibao01_pro_H:nurbsCircle2 1
+    100020: dongwuxibao01_pro_H:polySurface1
+    100022: dongwuxibao01_pro_H:polySurface174
+    100024: dongwuxibao01_pro_H:polySurface174 1
+    100026: dongwuxibao01_pro_H:polySurface174 2
+    100028: dongwuxibao01_pro_H:polySurface23
+    100030: dongwuxibao01_pro_H:polySurface23 1
+    100032: dongwuxibao01_pro_H:polySurface24
+    100034: dongwuxibao01_pro_H:polySurface24 1
+    100036: dongwuxibao01_pro_H:polySurface26
+    100038: dongwuxibao01_pro_H:polySurface26 1
+    100040: dongwuxibao01_pro_H:polySurface27
+    100042: dongwuxibao01_pro_H:polySurface27 1
+    100044: dongwuxibao01_pro_H:xianliti
+    100046: dongwuxibao01_pro_H:xianliti 1
+    100048: dongwuxibao01_pro_H:ZBrush_defualt_group
+    100050: dongwuxibao01_pro_H:ZBrush_defualt_group1
+    100052: dongwuxibao01_pro_H:ZBrush_defualt_group2
+    100054: //RootNode
+    100056: dongwuxibao01_pro_H:polySurface175
+    100058: dongwuxibao01_pro_H:polySurface176
+    100060: dongwuxibao01_pro_H:polySurface177
+    100062: dongwuxibao01_pro_H:polySurface178
+    100064: dongwuxibao01_pro_H:polySurface179
+    100066: dongwuxibao01_pro_H:polySurface180
+    100068: sw_swjj_dwxb_xbh
+    100070: sw_swjj_dwxb_xbm
+    100072: sw_swjj_dwxb_xbz
+    100074: sw_swjj_dwxb_xlt
+    100076: XianLiTi
+    100078: XianLiTi 1
+    100080: XianLiTi 2
+    100082: XianLiTi1
+    100084: XianLiTi1 1
+    100086: XianLiTi1 2
+    100088: XianLiTi2
+    100090: XianLiTi2 1
+    100092: XianLiTi2 2
+    100094: XianLiTi3
+    100096: XianLiTi3 1
+    100098: XianLiTi3 2
+    100100: XianLiTi4
+    100102: XiBaoHe
+    100104: XiBaoMo
+    100106: XiBaoMo1
+    100108: XiBaoZiJiZhi
+    400000: dongwuxibao01_pro_H:dongwuxibao_geo 1
+    400002: dongwuxibao01_pro_H:nurbsCircle1
+    400004: dongwuxibao01_pro_H:nurbsCircle11
+    400006: dongwuxibao01_pro_H:nurbsCircle13
+    400008: dongwuxibao01_pro_H:nurbsCircle14
+    400010: dongwuxibao01_pro_H:nurbsCircle15
+    400012: dongwuxibao01_pro_H:nurbsCircle16
+    400014: dongwuxibao01_pro_H:nurbsCircle17
+    400016: dongwuxibao01_pro_H:nurbsCircle2
+    400018: dongwuxibao01_pro_H:nurbsCircle2 1
+    400020: dongwuxibao01_pro_H:polySurface1
+    400022: dongwuxibao01_pro_H:polySurface174
+    400024: dongwuxibao01_pro_H:polySurface174 1
+    400026: dongwuxibao01_pro_H:polySurface174 2
+    400028: dongwuxibao01_pro_H:polySurface23
+    400030: dongwuxibao01_pro_H:polySurface23 1
+    400032: dongwuxibao01_pro_H:polySurface24
+    400034: dongwuxibao01_pro_H:polySurface24 1
+    400036: dongwuxibao01_pro_H:polySurface26
+    400038: dongwuxibao01_pro_H:polySurface26 1
+    400040: dongwuxibao01_pro_H:polySurface27
+    400042: dongwuxibao01_pro_H:polySurface27 1
+    400044: dongwuxibao01_pro_H:xianliti
+    400046: dongwuxibao01_pro_H:xianliti 1
+    400048: dongwuxibao01_pro_H:ZBrush_defualt_group
+    400050: dongwuxibao01_pro_H:ZBrush_defualt_group1
+    400052: dongwuxibao01_pro_H:ZBrush_defualt_group2
+    400054: //RootNode
+    400056: dongwuxibao01_pro_H:polySurface175
+    400058: dongwuxibao01_pro_H:polySurface176
+    400060: dongwuxibao01_pro_H:polySurface177
+    400062: dongwuxibao01_pro_H:polySurface178
+    400064: dongwuxibao01_pro_H:polySurface179
+    400066: dongwuxibao01_pro_H:polySurface180
+    400068: sw_swjj_dwxb_xbh
+    400070: sw_swjj_dwxb_xbm
+    400072: sw_swjj_dwxb_xbz
+    400074: sw_swjj_dwxb_xlt
+    400076: XianLiTi
+    400078: XianLiTi 1
+    400080: XianLiTi 2
+    400082: XianLiTi1
+    400084: XianLiTi1 1
+    400086: XianLiTi1 2
+    400088: XianLiTi2
+    400090: XianLiTi2 1
+    400092: XianLiTi2 2
+    400094: XianLiTi3
+    400096: XianLiTi3 1
+    400098: XianLiTi3 2
+    400100: XianLiTi4
+    400102: XiBaoHe
+    400104: XiBaoMo
+    400106: XiBaoMo1
+    400108: XiBaoZiJiZhi
+    2100000: dongwuxibao_coo
+    2100002: neihe_front
+    2300000: dongwuxibao01_pro_H:polySurface1
+    2300002: dongwuxibao01_pro_H:polySurface174
+    2300004: dongwuxibao01_pro_H:polySurface174 1
+    2300006: dongwuxibao01_pro_H:polySurface174 2
+    2300008: dongwuxibao01_pro_H:polySurface23
+    2300010: dongwuxibao01_pro_H:polySurface23 1
+    2300012: dongwuxibao01_pro_H:polySurface24
+    2300014: dongwuxibao01_pro_H:polySurface24 1
+    2300016: dongwuxibao01_pro_H:polySurface26
+    2300018: dongwuxibao01_pro_H:polySurface26 1
+    2300020: dongwuxibao01_pro_H:polySurface27
+    2300022: dongwuxibao01_pro_H:polySurface27 1
+    2300024: dongwuxibao01_pro_H:ZBrush_defualt_group
+    2300026: dongwuxibao01_pro_H:ZBrush_defualt_group1
+    2300028: dongwuxibao01_pro_H:ZBrush_defualt_group2
+    2300030: dongwuxibao01_pro_H:polySurface175
+    2300032: dongwuxibao01_pro_H:polySurface176
+    2300034: dongwuxibao01_pro_H:polySurface177
+    2300036: dongwuxibao01_pro_H:polySurface178
+    2300038: dongwuxibao01_pro_H:polySurface179
+    2300040: dongwuxibao01_pro_H:polySurface180
+    2300042: XianLiTi
+    2300044: XianLiTi 1
+    2300046: XianLiTi 2
+    2300048: XianLiTi1
+    2300050: XianLiTi1 1
+    2300052: XianLiTi1 2
+    2300054: XianLiTi2
+    2300056: XianLiTi2 1
+    2300058: XianLiTi2 2
+    2300060: XianLiTi3 1
+    2300062: XianLiTi3 2
+    2300064: XiBaoHe
+    2300066: XiBaoMo
+    2300068: XiBaoMo1
+    2300070: XiBaoZiJiZhi
+    3300000: dongwuxibao01_pro_H:polySurface1
+    3300002: dongwuxibao01_pro_H:polySurface174
+    3300004: dongwuxibao01_pro_H:polySurface174 1
+    3300006: dongwuxibao01_pro_H:polySurface174 2
+    3300008: dongwuxibao01_pro_H:polySurface23
+    3300010: dongwuxibao01_pro_H:polySurface23 1
+    3300012: dongwuxibao01_pro_H:polySurface24
+    3300014: dongwuxibao01_pro_H:polySurface24 1
+    3300016: dongwuxibao01_pro_H:polySurface26
+    3300018: dongwuxibao01_pro_H:polySurface26 1
+    3300020: dongwuxibao01_pro_H:polySurface27
+    3300022: dongwuxibao01_pro_H:polySurface27 1
+    3300024: dongwuxibao01_pro_H:ZBrush_defualt_group
+    3300026: dongwuxibao01_pro_H:ZBrush_defualt_group1
+    3300028: dongwuxibao01_pro_H:ZBrush_defualt_group2
+    3300030: dongwuxibao01_pro_H:polySurface175
+    3300032: dongwuxibao01_pro_H:polySurface176
+    3300034: dongwuxibao01_pro_H:polySurface177
+    3300036: dongwuxibao01_pro_H:polySurface178
+    3300038: dongwuxibao01_pro_H:polySurface179
+    3300040: dongwuxibao01_pro_H:polySurface180
+    3300042: XianLiTi
+    3300044: XianLiTi 1
+    3300046: XianLiTi 2
+    3300048: XianLiTi1
+    3300050: XianLiTi1 1
+    3300052: XianLiTi1 2
+    3300054: XianLiTi2
+    3300056: XianLiTi2 1
+    3300058: XianLiTi2 2
+    3300060: XianLiTi3 1
+    3300062: XianLiTi3 2
+    3300064: XiBaoHe
+    3300066: XiBaoMo
+    3300068: XiBaoMo1
+    3300070: XiBaoZiJiZhi
+    4300000: dongwuxibao01_pro_H:ZBrush_defualt_group
+    4300002: dongwuxibao01_pro_H:ZBrush_defualt_group1
+    4300004: dongwuxibao01_pro_H:polySurface26
+    4300006: dongwuxibao01_pro_H:polySurface24
+    4300008: dongwuxibao01_pro_H:polySurface23
+    4300010: dongwuxibao01_pro_H:polySurface27
+    4300012: dongwuxibao01_pro_H:polySurface26
+    4300014: dongwuxibao01_pro_H:polySurface24
+    4300016: dongwuxibao01_pro_H:polySurface23
+    4300018: dongwuxibao01_pro_H:polySurface27
+    4300020: dongwuxibao01_pro_H:ZBrush_defualt_group2
+    4300022: dongwuxibao01_pro_H:polySurface174
+    4300024: dongwuxibao01_pro_H:polySurface174
+    4300026: dongwuxibao01_pro_H:polySurface174
+    4300028: dongwuxibao01_pro_H:polySurface1
+    4300030: dongwuxibao01_pro_H:polySurface175
+    4300032: dongwuxibao01_pro_H:polySurface176
+    4300034: dongwuxibao01_pro_H:polySurface177
+    4300036: dongwuxibao01_pro_H:polySurface178
+    4300038: dongwuxibao01_pro_H:polySurface179
+    4300040: dongwuxibao01_pro_H:polySurface180
+    4300042: XiBaoZiJiZhi
+    4300044: XiBaoMo
+    4300046: XiBaoMo1
+    4300048: XianLiTi
+    4300050: XianLiTi1
+    4300052: XianLiTi2
+    4300054: XiBaoHe
+    4300056: XianLiTi
+    4300058: XianLiTi1
+    4300060: XianLiTi2
+    4300062: XianLiTi3
+    4300064: XianLiTi
+    4300066: XianLiTi1
+    4300068: XianLiTi2
+    4300070: XianLiTi3
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 761aa423a23fff342910d8a2bb719375, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn2
+    second: {fileID: 2100000, guid: 7c18389c19a448b4790f8af7c0c7aea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn3
+    second: {fileID: 2100000, guid: 39508b28792e2df4a960e9f250c1f309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn4
+    second: {fileID: 2100000, guid: 7ca57d1d0b1478a4ebc85dcbf616e641, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn5
+    second: {fileID: 2100000, guid: b24484063d69ff643b9561f530a1187f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn8
+    second: {fileID: 2100000, guid: e510ed487fb304946bc9eefa203f2cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn9
+    second: {fileID: 2100000, guid: 37d0ed852e4aa44458488de8a93cf1c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dongwuxibao_coo
+    second: {fileID: 2100000, guid: 761aa423a23fff342910d8a2bb719375, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dongwuxibao_coo1
+    second: {fileID: 2100000, guid: e88c624b9242f14478be6a179962d2fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lanse
+    second: {fileID: 2100000, guid: 37d0ed852e4aa44458488de8a93cf1c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neihe_front1
+    second: {fileID: 2100000, guid: cda7235be60fd7b469a57483664dbc3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xianliti_nei_back
+    second: {fileID: 2100000, guid: b24484063d69ff643b9561f530a1187f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xianliti_wai_Cc
+    second: {fileID: 2100000, guid: 7ca57d1d0b1478a4ebc85dcbf616e641, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

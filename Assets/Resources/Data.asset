@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35df296524c3444fbaefe66fe29c887, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  prefabName: 
+  numberOfPrefabsToCreate: 0
+  spawnPoints: []
+  desStrs:
+  - "\u7684\u4E8B\u5B9E\u662F\u4E8B\u5B9E\u662F\u4E8B\u5B9E\u662F\u4E8B\u5B9E\u662F\u4E8B\u5B9E"
+  - aaaaaaaaaaaaaa
+  - sdssssssssss
+  - aaaaaaaaaaaaaa
+  - "using UnityEngine;  /// <summary> /// \u52A8\u753B\u9700\u8981\u6539\u6210\u65E7\u7248\u52A8\u753B
+    /// </summary> public class LegacyAnimationOper : MonoBehaviour {     public Animation
+    anim;     public string animName;     void Awake()     {         anim = GetComponent<Animation>();
+    \        IsStart = false;         IsComplete = false;         anim.playAutomatically
+    = false;          //framePointEvent = (a) =>         //{         //    Debug.Log(a);
+    \        //};         //PlayForward(\"jiujingdengguanbi_quan\", 0);         //anim.enabled
+    = true;     }      private void Start()     {       }      public WrapMode SetWrapMode
+    \    {         get         {             return anim.wrapMode;         }         set
+    \        {             anim.wrapMode = value;         }     }     /// <summary>
+    \    /// \u5F53\u753B\u662F\u5426\u5F00\u59CB     /// </summary>     public bool
+    IsStart     {         get;         set;     }      /// <summary>     /// \u52A8\u753B\u662F\u5426\u5B8C\u6210
+    \    /// </summary>     public bool IsComplete     {         get;         set;
+    \    }      public System.Action Complete;     public System.Action<float> timePointEvent;
+    //\u65F6\u95F4\u70B9\u4E8B\u4EF6,\u53C2\u6570\u4E3A\u5F53\u524D\u65F6\u95F4     public
+    System.Action<int> framePointEvent; //\u5E27\u4E8B\u4EF6,\u53C2\u6570\u4E3A\u5F53\u524D\u5E27\u6570
+    \    float timeLength;     float currLength;     int lastFrame = -1, curFrame
+    = -1;     AnimationState state;     public float transitionTime = 0f;//\u8FC7\u6E21\u65F6\u95F4-
+    \       /// <summary>     /// \u4ECE\u5934\u5F00\u59CB\u64AD\u653E\u52A8\u753B\u526A\u8F91
+    \    /// </summary>     /// <param name=\"clipName\"></param>      public void
+    PlayForward(string clipName, float normalizeTime = 0)     {         if (anim)
+    \        {             animName = clipName;             //if (clipName == \"MM_E_3RE_DY_KA\")
+    \            //{             //    Debug.Log(anim.IsPlaying(clipName) + \"   \"
+    + anim[clipName].normalizedTime);             //}             anim.Stop();             anim.Rewind();
+    \            if (!anim.IsPlaying(clipName))             {                 state
+    = anim[clipName];                 state.normalizedTime = normalizeTime;                 //anim[clipName].time
+    = 0;                 lastFrame = curFrame = -1;             }             //anim.Play(clipName,
+    0, 0);             timeLength = anim[clipName].length;             IsStart = true;
+    \            currLength = 0;             anim[animName].speed = 1;             anim.Play(clipName,
+    PlayMode.StopAll);         }         else         {             Debug.Log(\"\u6CA1\u6709\u627E\u5230\u52A8\u753B
+    \ \" + clipName);         }     }      /// <summary>     /// \u6682\u505C     ///
+    </summary>     public void OnPause()     {         IsStart = false;         if
+    (anim != null)         {             anim[animName].speed = 0;         }     }
+    \     /// <summary>     /// \u7EE7\u7EED     /// </summary>     public void OnContinue()
+    \    {         IsStart = true;         if (anim != null)         {             anim[animName].speed
+    = 1;         }      }      void Update()     {         //Debug.Log(Time.time);
+    \        if (IsStart)         {             if (state?.name == animName)             {
+    \                timeLength = anim[animName].length;                 if (currLength
+    <= timeLength)                 {                     //Debug.Log(currLength +
+    \"   curlength\" + timeLength);                     if (timePointEvent != null)
+    \                    {                         timePointEvent(currLength);                     }
+    \                     if (framePointEvent != null)                     {                         float
+    cur = anim[animName].clip.frameRate * anim[animName].length * anim[animName].normalizedTime;
+    \                        //Debug.Log(anim[animName].normalizedTime);                         //Debug.Log(Mathf.RoundToInt(curFrame));
+    \                        curFrame = Mathf.RoundToInt(cur);                         if
+    (lastFrame != curFrame)                         {                             //Debug.Log(Mathf.RoundToInt(curFrame)
+    + \"----------------\");                             framePointEvent(curFrame);
+    \                        }                         lastFrame = curFrame;                     }
+    \                    currLength += Time.deltaTime;                 }                 else
+    \                {                     //Debug.LogError(\"complete  \" + animName
+    + \"     \" + currLength + \"     \" + Complete == null);                     IsStart
+    = false;                     IsComplete = true;                     currLength
+    = 0;                     lastFrame = curFrame = -1;                     Complete?.Invoke();//\u56DE\u8C03\u4E2D\u624B\u52A8\u7F6E\u4E3ANULL
+    \                    //Complete = null;                     timePointEvent = null;
+    \                }             }         }     }     private void OnDisable()
+    \    {         anim?.Rewind(animName);     }     void OnDestroy()     {         IsStart
+    = false;         IsComplete = false;         Complete = null;         timePointEvent
+    = null;         framePointEvent = null;     } } "

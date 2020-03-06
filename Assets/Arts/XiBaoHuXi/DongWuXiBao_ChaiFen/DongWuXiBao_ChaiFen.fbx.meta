@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 75188da422b66e94baa70d586c5f2708
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DongWuXiBao_GaoErJiTi
+    100004: DongWuXiBao_GaoErJiTi 1
+    100006: DongWuXiBao_NeiZhiWang
+    100008: DongWuXiBao_NeiZhiWang 1
+    100010: DongWuXiBao_RongMeiTi
+    100012: DongWuXiBao_RongMeiTi 1
+    100014: DongWuXiBao_XiBaoHe
+    100016: DongWuXiBao_XiBaoHe 1
+    100018: DongWuXiBao_XiBaoHeChai
+    100020: DongWuXiBao_XiBaoHeChai 1
+    100022: DongWuXiBao_XiBaoMo
+    100024: DongWuXiBao_XiBaoMo 1
+    100026: DongWuXiBao_XiBaoZhi
+    100028: DongWuXiBao_XiBaoZhi 1
+    100030: DongWuXiBao_XinLiTi
+    100032: DongWuXiBao_XinLiTi 1
+    100034: DongWuXiBao_ZhongXinTi
+    100036: DongWuXiBao_ZhongXinTi 1
+    100038: end
+    100040: end 1
+    100042: end 10
+    100044: end 2
+    100046: end 3
+    100048: end 4
+    100050: end 5
+    100052: end 6
+    100054: end 7
+    100056: end 8
+    100058: end 9
+    100060: end1
+    100062: end1 1
+    100064: end1 2
+    100066: end1 3
+    100068: SpliteEnd
+    100070: start
+    100072: start 1
+    100074: start 10
+    100076: start 2
+    100078: start 3
+    100080: start 4
+    100082: start 5
+    100084: start 6
+    100086: start 7
+    100088: start 8
+    100090: start 9
+    100092: tag_GaoErJiTi
+    100094: tag_HeMo
+    100096: tag_HeReng
+    100098: tag_HeTangTi
+    100100: tag_NeiZhiWang
+    100102: tag_RongMeiTi
+    100104: tag_XiBaoHe
+    100106: tag_XiBaoMo
+    100108: tag_XiBaoZhi
+    100110: tag_XiLiTi
+    100112: tag_ZhongXinTi
+    400000: //RootNode
+    400002: DongWuXiBao_GaoErJiTi
+    400004: DongWuXiBao_GaoErJiTi 1
+    400006: DongWuXiBao_NeiZhiWang
+    400008: DongWuXiBao_NeiZhiWang 1
+    400010: DongWuXiBao_RongMeiTi
+    400012: DongWuXiBao_RongMeiTi 1
+    400014: DongWuXiBao_XiBaoHe
+    400016: DongWuXiBao_XiBaoHe 1
+    400018: DongWuXiBao_XiBaoHeChai
+    400020: DongWuXiBao_XiBaoHeChai 1
+    400022: DongWuXiBao_XiBaoMo
+    400024: DongWuXiBao_XiBaoMo 1
+    400026: DongWuXiBao_XiBaoZhi
+    400028: DongWuXiBao_XiBaoZhi 1
+    400030: DongWuXiBao_XinLiTi
+    400032: DongWuXiBao_XinLiTi 1
+    400034: DongWuXiBao_ZhongXinTi
+    400036: DongWuXiBao_ZhongXinTi 1
+    400038: end
+    400040: end 1
+    400042: end 10
+    400044: end 2
+    400046: end 3
+    400048: end 4
+    400050: end 5
+    400052: end 6
+    400054: end 7
+    400056: end 8
+    400058: end 9
+    400060: end1
+    400062: end1 1
+    400064: end1 2
+    400066: end1 3
+    400068: SpliteEnd
+    400070: start
+    400072: start 1
+    400074: start 10
+    400076: start 2
+    400078: start 3
+    400080: start 4
+    400082: start 5
+    400084: start 6
+    400086: start 7
+    400088: start 8
+    400090: start 9
+    400092: tag_GaoErJiTi
+    400094: tag_HeMo
+    400096: tag_HeReng
+    400098: tag_HeTangTi
+    400100: tag_NeiZhiWang
+    400102: tag_RongMeiTi
+    400104: tag_XiBaoHe
+    400106: tag_XiBaoMo
+    400108: tag_XiBaoZhi
+    400110: tag_XiLiTi
+    400112: tag_ZhongXinTi
+    2100000: M_DongWuXiBao
+    2100002: M_XianLiTi1
+    2100004: M_XianLiTi
+    2100006: M_XiBaoZhi
+    2300000: DongWuXiBao_GaoErJiTi
+    2300002: DongWuXiBao_NeiZhiWang
+    2300004: DongWuXiBao_RongMeiTi
+    2300006: DongWuXiBao_XiBaoHe
+    2300008: DongWuXiBao_XiBaoHeChai
+    2300010: DongWuXiBao_XiBaoMo
+    2300012: DongWuXiBao_XiBaoZhi
+    2300014: DongWuXiBao_XinLiTi
+    2300016: DongWuXiBao_ZhongXinTi
+    3300000: DongWuXiBao_GaoErJiTi
+    3300002: DongWuXiBao_NeiZhiWang
+    3300004: DongWuXiBao_RongMeiTi
+    3300006: DongWuXiBao_XiBaoHe
+    3300008: DongWuXiBao_XiBaoHeChai
+    3300010: DongWuXiBao_XiBaoMo
+    3300012: DongWuXiBao_XiBaoZhi
+    3300014: DongWuXiBao_XinLiTi
+    3300016: DongWuXiBao_ZhongXinTi
+    4300000: DongWuXiBao_ZhongXinTi
+    4300002: DongWuXiBao_NeiZhiWang
+    4300004: DongWuXiBao_XinLiTi
+    4300006: DongWuXiBao_RongMeiTi
+    4300008: DongWuXiBao_XiBaoMo
+    4300010: DongWuXiBao_XiBaoHeChai
+    4300012: DongWuXiBao_GaoErJiTi
+    4300014: DongWuXiBao_XiBaoZhi
+    4300016: DongWuXiBao_XiBaoHe
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
