@@ -94,11 +94,7 @@ public class ToolBox : MonoBehaviour
         GlobalEntity.GetInstance().AddListener<GameObject>(EventEnum.Click, ItemClickCallback);
  
         string pName = transform.parent.name;
-        string tip = "请点击工具箱在其中选择光反应需要的元素";
-        if (pName == "BMoudle")
-        {
-            tip = "请点击工具箱在其中选择暗反应需要的元素";
-        }
+        string tip = "请打开工具箱选择元素";     
         Tip(tip);
 
     }
@@ -245,20 +241,7 @@ public class ToolBox : MonoBehaviour
     /// 播放动画控制    
     /// </summary>
     void PlayAnimation()
-    {
-        //模型隐藏
-        //Transform objectPar = transform.parent.Find("ObjectsPar");
-        //objectPar.gameObject.SetActive(false);
-        //string pName = transform.parent.name;
-        //if (pName == "BMoudle")
-        //{
-        //    transform.parent.Find("02").localPosition = new Vector3(0.17f, 0.46f, 3.22f);
-        //}
-        //else
-        //{
-        //    transform.parent.Find("01").localPosition = new Vector3(-0.3716519f, 0.681092f, 0.701f);
-        //}
-
+    {     
         //工具箱隐藏
         gameObject.SetActive(false);      
 

@@ -197,6 +197,9 @@ namespace GCSeries
                 dragObj = raycastHit.collider.gameObject;
                 _curDragObj = dragObj;
 
+                //发送鼠标点中物体事件
+                GlobalEntity.GetInstance().Dispatch<GameObject>(MsgEvent.MOUSE_DOWN,_curDragObj);
+
                 if (_curDragObj.tag=="DontDrag")
                 {
                     return;

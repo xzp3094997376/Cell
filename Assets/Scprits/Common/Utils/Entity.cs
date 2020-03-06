@@ -1,6 +1,5 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using System;
 
 
 
@@ -92,6 +91,21 @@ public abstract class Entity
                 Delegate.Remove(_table[p_type], dList[i]);
             }
             _table.Remove(p_type);
+        }
+    }
+
+    public void RemoveAllListeners()
+    {
+        IEnumerator<Enum> keyEnum = _table.Keys.GetEnumerator();
+        Enum[] enums = new Enum[_table.Count];
+        int i = 0;
+        while (keyEnum.MoveNext())
+        {
+            enums[i] = keyEnum.Current;
+        }
+        for (int j = enums.Length - 1; j >= 0; j--)
+        {
+            RemoveAllListeners(enums[j]);
         }
     }
 

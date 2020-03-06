@@ -1,4 +1,5 @@
 ﻿using GCSeries;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,8 @@ public class Main : MonoBehaviour
     public GameObject TextGroup;
     private void Awake()
     {
+        //Debug.LogError("AppDomain.CurrentDomain.BaseDirector:  "+ AppDomain.CurrentDomain.BaseDirectory);
+    
         instance = this;
 
         MRSystem mrSys = FindObjectOfType<MRSystem>();
